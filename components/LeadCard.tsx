@@ -1,4 +1,4 @@
-export default function LeadCard({ id }) {
+export default function LeadCard({ id }: { id: string }) {
   return (
     <div
       style={{
