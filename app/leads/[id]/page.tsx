@@ -1,5 +1,9 @@
 import LeadCard from "../../../components/LeadCard";
 
 export default function LeadDetails({ params }) {
-  return <LeadCard id={params.id} />;
+  return (
+    <main className="p-6">
+      <LeadCard id={params.id} />
+    </main>
+  );
 }
